@@ -1,0 +1,70 @@
+# Node.js dependencies
+node_modules/
+
+# npm logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Next.js build output
+.next/
+
+# Next.js static file exports
+out/
+
+# VSCode settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# dotenv environment variable files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# JetBrains IDEs (IntelliJ, WebStorm, etc.)
+.idea/
+
+# Logs and temporary files
+*.log
+*.bak
+*.swp
+*.swo
+
+# Debug and test outputs
+coverage/
+test-coverage/
+
+# Ignore lock files if using yarn (unnecessary with npm)
+yarn.lock
+
+# Ignore generated docs or reports
+docs/
+
+# Ignore build artifacts
+dist/
+build/
+
+# Git LFS tracking
+*.zip
+*.tar
+*.gz
+*.mp4
+*.mov
+*.mp3
+
+# Ignore other system-specific files or editor-related files
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+*.idea/
+
+# Ignore the .env file with sensitive keys and secrets (do not commit!)
+.env.local
