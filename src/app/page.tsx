@@ -9,7 +9,7 @@ export default function Home() {
       </p>
 
       <Link href="/upload">
-        <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300">
+        <button className="bg-blue-600 hover:bg-blue-700 cursor-pointer text-white font-semibold py-3 px-6 rounded-lg transition duration-300">
           Go to Upload Page
         </button>
       </Link>

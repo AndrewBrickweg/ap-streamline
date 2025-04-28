@@ -8,6 +8,7 @@ export default function Home() {
   const [message, setMessage] = useState("");
 
   const handleUpload = async () => {
+    console.log("button clicked");
     if (!file) return;
 
     setIsUploading(true);
@@ -39,12 +40,12 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-5xl font-bold mb-6">Upload Your Invoice</h1>
       <Link href="/">
-        <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300">
+        <button className="bg-blue-600 hover:bg-blue-700 cursor-pointer text-white font-semibold py-3 px-6 rounded-lg transition duration-300">
           Go to Home
         </button>
       </Link>
+
       <input
         type="file"
         onChange={(e) => setFile(e.target.files?.[0] || null)}
